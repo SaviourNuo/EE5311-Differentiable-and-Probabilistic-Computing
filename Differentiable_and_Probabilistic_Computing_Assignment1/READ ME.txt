@@ -1,0 +1,22 @@
+WHAT'S INSIDE THE .zip FILE:
+
+Assignment 1_XU NUO_A0313771H.pdf: the brief report of this assignment
+
+data1.txt: Data on platelet levels over time after patients took different doses of drugs A and B
+
+Polynomial_Regression.jl: Julia code for fitting the data using polynomial regression
+Logistic_DrugEffect.jl:  Julia code for fitting the data using Logistic model with drug effect included
+PINN.py: Python code for fitting the data using Physics-Informed Neural Networks
+
+platelet_prediction_polynomial.png: Picture of prediction output using polynomial regression model
+platelet_prediction_logistic.png: Picture of prediction output using Logistic model with drug effect included
+platelet_prediction_PINN.png: Picture of prediction output using Physics-Informed Neural Networks
+
+results(polynomial).csv: Forecasted relative blood platelet level from time 0 to 10 months in steps of 0.5 months using polynomial regression
+results(logistic).csv: Forecasted relative blood platelet level from time 0 to 10 months in steps of 0.5 months using Logistic model with drug effect included
+results(PINN).csv: Forecasted relative blood platelet level from time 0 to 10 months in steps of 0.5 months using PINN
+
+
+HOW TO RUN THE CODES:
+
+Open this folder as the workspace, ensure that `data1.txt` and the code files are in the same directory, and install the required dependencies for both Python and Julia to successfully run the code.
