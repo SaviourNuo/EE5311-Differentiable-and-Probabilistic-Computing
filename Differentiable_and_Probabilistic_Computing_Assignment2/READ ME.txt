@@ -1,0 +1,19 @@
+WHAT'S INSIDE THE .zip FILE:
+
+Assignment 2_XU NUO_A0313771H.pdf: the brief report of this assignment
+
+data2.csv: The game results among 10 players over the past three years
+
+Bayesian.py: Code for this task using Bayesian Inference
+
+MLE.py: Code for this task using Maximum Likelihood Estimation
+
+MLE training process.txt: The output of the terminal when running MLE.py
+
+clip: The results plotted by running these two pieces of code
+
+
+
+HOW TO RUN THE CODES:
+
+Open this folder as the workspace, ensure that `data2.csv` and the code files are in the same directory, and install the required dependencies for Python to successfully run the code.
